@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LLTestToolKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LLTestToolKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LLTestToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LLTestToolKit: 00311a5014dc8a9255bfd99b57adf3c92a4bbaf2
+
+PODFILE CHECKSUM: 3c4250e001118e71f3b33ed5c7a2ddeaac1d7a83
+
+COCOAPODS: 1.5.0

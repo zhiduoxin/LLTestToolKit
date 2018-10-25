@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F75F9344B4EB4F397B5735F /* Pods_LLTestToolKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1A0F08554100A8CDBED6B1 /* Pods_LLTestToolKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6645B40F8BC1296206E18CDF /* Pods_LLTestToolKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C16DCEDFD87476EBF40A313 /* Pods_LLTestToolKit_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		84C96517B4C70C7F5B92ECAE /* Pods_LLTestToolKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F80AC062140B6ED1B07C598 /* Pods_LLTestToolKit_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E49DE976A58B0212D9490D53 /* Pods_LLTestToolKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CB625D18FA8BD80528EEAF /* Pods_LLTestToolKit_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F80AC062140B6ED1B07C598 /* Pods_LLTestToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLTestToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48BC1FC1D1205C27B39E696D /* LLTestToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LLTestToolKit.podspec; path = ../LLTestToolKit.podspec; sourceTree = "<group>"; };
-		55D01F2A166EA05157540128 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5B00650D94A25EA45F8A7C54 /* Pods-LLTestToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTestToolKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLTestToolKit_Example/Pods-LLTestToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5CD6764917721CE2DCF46D34 /* Pods-LLTestToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTestToolKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLTestToolKit_Example/Pods-LLTestToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5E28AC456D4AD6B0D1F67F61 /* Pods-LLTestToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTestToolKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLTestToolKit_Tests/Pods-LLTestToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		00A94EACE1598B3CB83559DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3DCAEB38EA8972F0659924A1 /* Pods-LLTestToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTestToolKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLTestToolKit_Example/Pods-LLTestToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LLTestToolKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLTestToolKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +58,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6C16DCEDFD87476EBF40A313 /* Pods_LLTestToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLTestToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		702BFBECF0AEE1C55C6760F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E06038B2E77E71B8AD13D5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF1467F0ACD4418E12A904E4 /* Pods-LLTestToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTestToolKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLTestToolKit_Tests/Pods-LLTestToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A4E7EA414144C8E0A603832 /* Pods-LLTestToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTestToolKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLTestToolKit_Tests/Pods-LLTestToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4783F6CC9DD36C5487FA894 /* LLTestToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLTestToolKit.podspec; path = ../LLTestToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B74F62EC31F2052DB10AEA52 /* Pods-LLTestToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTestToolKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLTestToolKit_Example/Pods-LLTestToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BAA14A9AEDD3339D4DA1DB2D /* Pods-LLTestToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTestToolKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLTestToolKit_Tests/Pods-LLTestToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1A0F08554100A8CDBED6B1 /* Pods_LLTestToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLTestToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CB625D18FA8BD80528EEAF /* Pods_LLTestToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLTestToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6645B40F8BC1296206E18CDF /* Pods_LLTestToolKit_Example.framework in Frameworks */,
+				E49DE976A58B0212D9490D53 /* Pods_LLTestToolKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,24 +88,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				84C96517B4C70C7F5B92ECAE /* Pods_LLTestToolKit_Tests.framework in Frameworks */,
+				5F75F9344B4EB4F397B5735F /* Pods_LLTestToolKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0348471B6F772E82582848E6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5CD6764917721CE2DCF46D34 /* Pods-LLTestToolKit_Example.debug.xcconfig */,
-				5B00650D94A25EA45F8A7C54 /* Pods-LLTestToolKit_Example.release.xcconfig */,
-				BF1467F0ACD4418E12A904E4 /* Pods-LLTestToolKit_Tests.debug.xcconfig */,
-				5E28AC456D4AD6B0D1F67F61 /* Pods-LLTestToolKit_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +103,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				0348471B6F772E82582848E6 /* Pods */,
+				7F70D428D4D570D412B831F3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				6C16DCEDFD87476EBF40A313 /* Pods_LLTestToolKit_Example.framework */,
-				1F80AC062140B6ED1B07C598 /* Pods_LLTestToolKit_Tests.framework */,
+				E0CB625D18FA8BD80528EEAF /* Pods_LLTestToolKit_Example.framework */,
+				CE1A0F08554100A8CDBED6B1 /* Pods_LLTestToolKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,11 +178,22 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				48BC1FC1D1205C27B39E696D /* LLTestToolKit.podspec */,
-				55D01F2A166EA05157540128 /* README.md */,
-				702BFBECF0AEE1C55C6760F0 /* LICENSE */,
+				B4783F6CC9DD36C5487FA894 /* LLTestToolKit.podspec */,
+				7E06038B2E77E71B8AD13D5B /* README.md */,
+				00A94EACE1598B3CB83559DD /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		7F70D428D4D570D412B831F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAEB38EA8972F0659924A1 /* Pods-LLTestToolKit_Example.debug.xcconfig */,
+				B74F62EC31F2052DB10AEA52 /* Pods-LLTestToolKit_Example.release.xcconfig */,
+				BAA14A9AEDD3339D4DA1DB2D /* Pods-LLTestToolKit_Tests.debug.xcconfig */,
+				8A4E7EA414144C8E0A603832 /* Pods-LLTestToolKit_Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,11 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LLTestToolKit_Example" */;
 			buildPhases = (
-				07E24805FF3DD9F37515653A /* [CP] Check Pods Manifest.lock */,
+				ED26F9FCE72BC806AFAEB18A /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				AEA1F22BB9082FF59EE1BEB0 /* [CP] Embed Pods Frameworks */,
+				87860C1C2B5B5CE7C57ADCB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,11 +222,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LLTestToolKit_Tests" */;
 			buildPhases = (
-				945D7724DC16E27EB85569FB /* [CP] Check Pods Manifest.lock */,
+				AC3EEE878BE237F03E952226 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				5639B820ED9B414AC1D5FCAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhiduoxin;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Q25MXYQ87D;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -295,43 +297,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07E24805FF3DD9F37515653A /* [CP] Check Pods Manifest.lock */ = {
+		87860C1C2B5B5CE7C57ADCB3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LLTestToolKit_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5639B820ED9B414AC1D5FCAC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LLTestToolKit_Tests/Pods-LLTestToolKit_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-LLTestToolKit_Example/Pods-LLTestToolKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LLTestToolKit/LLTestToolKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLTestToolKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLTestToolKit_Tests/Pods-LLTestToolKit_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLTestToolKit_Example/Pods-LLTestToolKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		945D7724DC16E27EB85569FB /* [CP] Check Pods Manifest.lock */ = {
+		AC3EEE878BE237F03E952226 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,22 +333,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AEA1F22BB9082FF59EE1BEB0 /* [CP] Embed Pods Frameworks */ = {
+		ED26F9FCE72BC806AFAEB18A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LLTestToolKit_Example/Pods-LLTestToolKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LLTestToolKit/LLTestToolKit.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLTestToolKit.framework",
+				"$(DERIVED_FILE_DIR)/Pods-LLTestToolKit_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLTestToolKit_Example/Pods-LLTestToolKit_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -459,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -501,12 +485,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CD6764917721CE2DCF46D34 /* Pods-LLTestToolKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 3DCAEB38EA8972F0659924A1 /* Pods-LLTestToolKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q25MXYQ87D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLTestToolKit/LLTestToolKit-Prefix.pch";
 				INFOPLIST_FILE = "LLTestToolKit/LLTestToolKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,12 +502,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B00650D94A25EA45F8A7C54 /* Pods-LLTestToolKit_Example.release.xcconfig */;
+			baseConfigurationReference = B74F62EC31F2052DB10AEA52 /* Pods-LLTestToolKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q25MXYQ87D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLTestToolKit/LLTestToolKit-Prefix.pch";
 				INFOPLIST_FILE = "LLTestToolKit/LLTestToolKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,7 +519,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF1467F0ACD4418E12A904E4 /* Pods-LLTestToolKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = BAA14A9AEDD3339D4DA1DB2D /* Pods-LLTestToolKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -555,7 +543,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E28AC456D4AD6B0D1F67F61 /* Pods-LLTestToolKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 8A4E7EA414144C8E0A603832 /* Pods-LLTestToolKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,0 +1,6 @@
+framework module LLTestToolKit {
+  umbrella header "LLTestToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
