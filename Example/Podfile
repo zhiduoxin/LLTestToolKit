@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LLTestToolKit_Example' do
+  pod 'LLTestToolKit', :path => '../'
+
+  target 'LLTestToolKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
